@@ -6,4 +6,7 @@ export {DependencyContainer} from "./types";
 export * from "./decorators";
 export * from "./factories";
 export * from "./providers";
-export {instance as container} from "./dependency-container";
+export {
+  instance as container,
+  DependencyContainerImpl
+} from "./dependency-container";
